@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import DietNew from "./containers/DietNew.js";
 // import DietEdit from "./components/DietEdit.js";
 import NavBar from "./components/NavBar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
