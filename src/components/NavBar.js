@@ -24,9 +24,18 @@ function NavBar() {
     //   </div>
     // </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">
+      {/* <a class="navbar-brand" href="/">
+        <img
+          src="src/heart-health-and-diet-1581429841.jpg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a> */}
+      {/* <a class="navbar-brand" href="/">
         <h4> HEALTHY MEALS</h4>
-      </a>
+      </a> */}
       <button
         class="navbar-toggler"
         type="button"
@@ -54,17 +63,6 @@ function NavBar() {
           <li class="nav-item">
             <a class="nav-link" href="/diets">
               Check Out Diet Plans
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="navbar-brand" href="">
-              <img
-                src="src/heart-health-and-diet-1581429841.jpg"
-                width="30"
-                height="30"
-                class="d-inline-block align-top"
-                alt=""
-              />
             </a>
           </li>
         </ul>
