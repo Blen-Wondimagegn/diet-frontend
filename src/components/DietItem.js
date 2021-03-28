@@ -5,18 +5,36 @@ import { deleteDiet } from "../actions/deleteDiet";
 
 const DietItem = ({ diet, deleteDiet }) => {
   return (
-    <div className="card">
-      <div className="card-content rg">
-        <h1> My Name is {diet.name}</h1>
-        <br />
-        <p>
-          I am a {diet.age} years old {diet.gender} {diet.height}, tall.
+    //  <div class="col-sm-6">
+    //     <div class="card">
+    //       <div class="card-body">
+    //         <h5 class="card-title">Special title treatment</h5>
+    //         <p class="card-text">
+    //           With supporting text below as a natural lead-in to additional
+    //           content.
+    //         </p>
+    //         <a href="#" class="btn btn-primary">
+    //           Go somewhere
+    //         </a>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+    <div class="col-sm-6">
+      <div className="card">
+        <div class="card-body">
+          <h5 class="card-title">My Name is {diet.name}</h5>
           <br />
-          The type of Diet I follwed is called {diet.diet_type} <br />
-          My start weight was {diet.start_weight} lbs. <br />I lost{" "}
-          {diet.lost_weight} lbs with in {diet.duration}.<br />
-        </p>
-        <button onClick={() => deleteDiet(diet.id)}>DELETE</button>
+          <p class="card-text">
+            I am a {diet.age} years old {diet.gender} {diet.height}, tall.
+            <br />
+            The type of Diet I follwed is called {diet.diet_type} <br />
+            My start weight was {diet.start_weight} lbs. <br />I lost{" "}
+            {diet.lost_weight} lbs with in {diet.duration}.<br />
+          </p>
+          <button onClick={() => deleteDiet(diet.id)}>DELETE</button>
+        </div>
       </div>
     </div>
   );
