@@ -18,7 +18,7 @@ function Home() {
               claims abound for the competitive merits of various diets relative
               to one another.
             </p>
-            <a href="#" class="btn btn-primary">
+            <a href="/diets" class="btn btn-primary">
               Check Out What others are doing?
             </a>
           </div>
@@ -30,9 +30,15 @@ function Home() {
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">
               With supporting text below as a natural lead-in to additional
-              content.
+              content. One of very good thing I did not expected to change, my
+              “mojo” is back to levels like it was back when I was 18 years old.
+              It even more adds to self esteem, family life and overall feeling.
+              - Vigants Lesausks I have been using ReFit - My fitness app for
+              over 4 months now and I have lost 38 pounds and feel better than
+              ever!!! Still have 6 more pounds to lose before I hit my goal but
+              I feel absolutely amazing. - Karol Refati
             </p>
-            <a href="#" class="btn btn-primary">
+            <a href="/diets/new" class="btn btn-primary">
               Add Your Experience
             </a>
           </div>
