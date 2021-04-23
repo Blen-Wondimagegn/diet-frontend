@@ -7,7 +7,7 @@ function Home() {
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+            <h5 class="card-title">Do you want to change your life Style?</h5>
             <p class="card-text">
               Welcome to HEALTHY MEALS! Diet is established among the most
               important influences on health in modern societies. Injudicious
@@ -19,7 +19,7 @@ function Home() {
               to one another.
             </p>
             <a href="#" class="btn btn-primary">
-              Go somewhere
+              Check Out What others are doing?
             </a>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Home() {
               content.
             </p>
             <a href="#" class="btn btn-primary">
-              Go somewhere
+              Add Your Experience
             </a>
           </div>
         </div>

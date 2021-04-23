@@ -25,6 +25,7 @@ const DietItem = ({ diet, deleteDiet }) => {
     <div class="col-sm-6">
       <div className="card">
         <div class="card-body">
+          <h2 className="center ">Diet Reviews </h2>
           <h5 class="card-title">My Name is {diet.name}</h5>
           <br />
           <p class="card-text">
