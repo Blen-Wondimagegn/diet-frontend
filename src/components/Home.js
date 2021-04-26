@@ -17,7 +17,7 @@ function Home() {
               expression. In this context, claims abound for the competitive
               merits of various diets relative to one another.
             </p>
-            <a href="/diets" class="btn btn-primary">
+            <a href="/diets" class="btn btn-secondary">
               Check Out What others are doing?
             </a>
           </div>
@@ -38,7 +38,7 @@ function Home() {
               feel better than ever!!! Still have 6 more pounds to lose before I
               hit my goal but I feel absolutely amazing. - Karol Refati
             </p>
-            <a href="/diets/new" class="btn btn-primary">
+            <a href="/diets/new" class="btn btn-secondary">
               Add Your Experience
             </a>
           </div>
